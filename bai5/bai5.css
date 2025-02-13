@@ -1,0 +1,56 @@
+* {
+    font-family: Arial;
+    text-align: center;
+  
+}
+
+table {
+    border-radius: 15px;
+    border: 1px solid rgb(97, 95, 95);
+
+}
+
+h1 {
+    background-color: #ed1a35;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+tr {
+   padding-top: 0px;
+}
+
+.text1 {
+    color: rgba(255, 140, 0, 255);
+}
+
+.register {
+    background-color: rgba(230, 25, 52, 255);
+    border-radius: 6px;
+    border-color: rgba(230, 25, 52, 255);
+    color: white;
+    width: 60%;
+    height: 40px;
+}
+
+.share {
+    background-color: white;
+    border-radius: 6px;
+    border-color: rgba(237, 39, 64, 255);
+    color: rgba(237, 26, 53, 255);
+    width: 40%;
+}
+
+.text2 {
+    border-bottom: 2px solid rgba(221, 221, 221, 255);
+    padding-bottom: 6px;
+}
+
+.image {
+    position: absolute;
+    left: 270px;
+    top: -24px;
+    width: 100px;
+}

@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color:white;
+    display: flex;
+    padding: 20px;
+}
+
+.container {
+    width: 420px;
+    background: white;
+    overflow: hidden;
+}
+
+h1 {
+    border-left: 5px solid rgb(255, 119, 0);
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 10px;
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.image p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #333;
+    border-top: 1px solid #eee;
+}
+
+.content:last-child {
+    border-bottom: none;
+}
