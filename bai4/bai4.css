@@ -47,6 +47,3 @@ h1 {
     border-top: 1px solid #eee;
 }
 
-.content:last-child {
-    border-bottom: none;
-}

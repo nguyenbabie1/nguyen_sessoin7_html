@@ -1,0 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 10px;
+}
+.container{
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 8px;
+    width: 20cm;
+}
+.cap ,.cap2{
+    position: relative;
+    font-size: 23px;
+    display: flex;
+
+}
+#icon{
+    position:absolute;
+    left: 95%;
+    top: 30%;
+   
+}
+p{
+    padding: 20px;
+}
+.in{
+    font-weight: 550;
+}
+.pink{
+    color: rgb(219 76 147);
+}
+.cap2{
+    background-color: rgb(208 226 255);
+    color: rgb(16 54 109);
+}
